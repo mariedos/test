@@ -5,5 +5,5 @@ continuer = 'o'
 
 while continuer == 'o':
     print("Le compteur est maintenant à {}".format(n))
-    print("Voulez-vous continuer ? o/n")
+    continuer = input("Voulez-vous continuer ? o/n")
     n += 1
